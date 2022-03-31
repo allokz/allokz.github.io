@@ -1,0 +1,143 @@
+body {
+    background-color: #1F2022;
+    color: #E9E9E9;
+    font-family: 'Yantramanav', sans-serif;
+    padding: 0 3rem;
+}
+
+h1 {
+    font-family: 'Euphoria Script', cursive;
+    font-size: 3rem;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.logo .dark {
+    color: #828282;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    position: relative;
+    font-size: 1.25rem;
+    margin-left: 1rem;
+}
+
+nav ul li.active:before {
+    content: "";
+    position: absolute;
+    top: 1.75rem;
+    left: calc(50% - 0.175rem);
+    width: 0.35rem;
+    height: 0.35rem;
+    border-radius: 50%;
+    background-color: #E9E9E9;
+    transition: background-color .15s ease-in-out;
+}
+
+nav ul li.active:hover:before {
+    background-color: #828282;
+}
+
+nav a {
+    color: #E9E9E9;
+    text-decoration: none;
+    transition: color .15s ease-in-out;
+}
+
+nav a:hover {
+    color: #828282;
+}
+
+nav li.active {
+    font-weight: bold;
+}
+
+#technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#technologies img {
+    width: 3rem;
+    height: auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 1rem #121212;
+    margin: 1rem;
+}
+
+
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery a {
+    width: calc(100% / 2 - 1rem);
+    min-width: 300px;
+    line-height: 0;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.gallery img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    opacity: 1;
+    -webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+.gallery a:hover img {
+    opacity: 0.75;
+}
+
+#portfolio-preview a[href="#portfolio-preview"] {
+    text-align: center;
+    text-decoration: none;
+    color: #828282;
+}
+
+#portfolio-preview a[href="#portfolio-preview"]:hover {
+    text-align: center;
+    text-decoration: underline;
+    color: #E9E9E9;
+}
+
