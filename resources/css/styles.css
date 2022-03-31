@@ -84,6 +84,16 @@ nav li.active {
     font-weight: bold;
 }
 
+#about-me {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#description {
+    width: 50%;
+}
+
 #technologies {
     display: flex;
     flex-wrap: wrap;
