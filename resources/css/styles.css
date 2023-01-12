@@ -65,7 +65,6 @@ h3 {
 .btn-primary:hover {
     background-color: #3E2799;
     border-color: #3E2799;
-    cursor: pointer;
 }
 
 .btn-secondary {
@@ -173,9 +172,4 @@ header a {
 }
 #service-3 {
     background-color: #A78AFF;
-}
-
-
-#showcase {
-    
 }
