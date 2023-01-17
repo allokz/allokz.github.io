@@ -172,4 +172,49 @@ header a {
 }
 #service-3 {
     background-color: #A78AFF;
+
+#languages {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#languages div {
+    height: 100px;
+    margin: 1rem auto;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    transition: all 150ms ease-in-out;
+    border-radius: 0.5rem;
+}
+
+#languages .html {
+    width: 250px;
+    background-image: url("../HTML_grau.png");
+}
+#languages .html:hover {
+    background-image: url("../HTML.png");
+}
+#languages .css {
+    width: 200px;
+    background-image: url("../CSS_grau.png");
+}
+#languages .css:hover {
+    background-image: url("../CSS.png");
+}
+#languages .js {
+    width: 300px;
+    background-image: url("../JavaScript_grau.png");
+}
+#languages .js:hover {
+    background-image: url("../JavaScript.png");
+}
+#languages .react {
+    width: 250px;
+    background-image: url("../React_grau.png");
+}
+#languages .react:hover {
+    background-image: url("../React.png");
 }
