@@ -43,7 +43,9 @@ h3 {
 .flex {
     display: flex;
 }
-
+.flex-justify-center {
+    justify-content: center;
+}
 
 
 /* --- BUTTONS --- */
