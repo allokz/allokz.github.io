@@ -103,6 +103,10 @@ header a {
 /* --- HOME --- */
 
 #home p {
+#home {
+    background-image: url("../background.svg");
+}
+
     max-width: 50%;
     color: #777;
     margin-bottom: 2rem;
