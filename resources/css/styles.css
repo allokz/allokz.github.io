@@ -186,7 +186,8 @@ nav li a:hover {
 
 .key-figure {
     display: flex;
-    align-items: baseline; 
+    align-items: baseline;
+    margin: 0 2rem;
 }
 
 .key-figure h2 {
